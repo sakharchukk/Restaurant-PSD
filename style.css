@@ -1,0 +1,557 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	max-width: 1220px;
+	width: 100%;
+	margin: 0 auto;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.align__items_center{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+article{
+	background: url(img/articlebg.png) no-repeat center top/cover;
+	min-height: 100vh;
+}
+article a{
+	text-decoration: none;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: rgba(0, 0, 0, 0.54);
+}
+.logo{
+	margin-top: 35px;
+	text-transform: uppercase;
+	width: 15%;
+}
+.logo p{
+	color: #f0f1f1;
+	font-size: 36px;
+}
+.topnav{
+	margin-top: 50px;
+    width: 60%;
+    display: flex;
+}
+.topnav a{
+	color: #fff;
+	font-size: 21px;
+    padding: 7px;
+}
+.topnav a:hover{
+	border-bottom: 2px solid #90b68f;
+}
+
+.main__text{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.main__text h3{
+	color: #fff;
+	font-size: 90px;
+	padding-top: 200px;
+}
+.main__text img{
+	margin-top: 33px;
+}
+.header__button{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.header__button a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 50px;
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.5);
+	margin-left: 30px;
+	transition: all 0.5s ease-in-out;
+}
+.header__button a:nth-child(2){
+   border: 1px solid #fff;
+   background: rgba(255, 255, 255, 0.3);
+}
+.header__button a:hover{
+	-webkit-box-shadow: 25px 20px 24px 1px rgba(0,0,0,0.74);
+	-moz-box-shadow: 25px 20px 24px 1px rgba(0,0,0,0.74);
+	box-shadow: 25px 20px 24px 1px rgba(0,0,0,0.74);
+}
+
+.dish{
+	background: url(img/dishbg.png) no-repeat center top/cover;
+}
+.dish__food{
+	width: 33%;
+	padding: 40px;
+    text-align: center;
+    margin-top: 110px;
+}
+.dish__food h4{
+	color: #cc9900;
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.dish__food p{
+	margin-bottom: 30px;
+	margin-bottom: 55px;
+}
+.dish__meat{
+	width: 60%;
+	margin-top: 75px;
+	margin-bottom: 90px;
+}
+
+.ingredients{
+	background: url(img/ingredientsbg.png) no-repeat center top/cover;
+	height: 760px;
+}
+.ingredients__item{
+	max-width: 424px;
+	width: 100%;
+	padding: 90px;
+	text-align: center;
+	margin-left: auto;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 100px;
+}
+.ingredients__item h4{
+	color: #fff;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.ingredients__item p{
+	color: #fff;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 75px;
+}
+.ingredients__item img{
+	margin-left: 25px;
+}
+
+.menus{
+	background: url(img/dishbg.png) no-repeat center top/cover;
+}
+.menus__list{
+	margin-top: 30px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.menus__item{
+    max-width: 450px;
+    width: 35%;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+.menus__item h4{
+	font-size: 36px;
+	color: #cc9900;
+	text-align: center;
+}
+.menus__item h5{
+	display: flex;
+	justify-content: space-between;
+	font-size: 21px;
+	color: #cc9900;
+	border-bottom: 1px solid #cc9900;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+.menus__item img{
+	display: flex;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.border{
+	padding: 5px;
+	border: 1px solid #cc9900;
+}
+.border h5{
+	margin-top: 3px;
+}
+.border p{
+	margin-bottom: 5px;
+}
+.special{
+	color: #fff;
+	background: #cc9900;
+    padding: 3px;
+    width: 70px;
+    text-align: center;
+    border: 1px solid #cc9900;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.reviews{
+	background: url(img/reviewsbg.png) no-repeat center top/cover;
+	height: 760px;
+}
+.reviews__center{
+	color: #fff;
+	max-width: 770px;
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.reviews__center h3{
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.reviews__center p{
+	font-size: 25px;
+	margin-top: 30px;
+}
+.reviews__center .inc{
+	font-size: 18px;
+	margin-top: 50px;
+	margin-bottom: 70px;	
+}
+
+.content{
+	background: url(img/dishbg.png) no-repeat center top/cover;
+}
+.content__list{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.content__first{
+    width: 50%;
+}
+.content__first img:nth-child(2){
+	margin-left: 30px;
+}
+.content__second{
+	width: 50%;
+}
+.content__second h3{
+	font-size: 36px;
+	color: #cc9900;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.content__second p{
+	font-size: 16px;
+	margin-top: 30px;
+	max-width: 426px;
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.content__second img{
+	display: flex;
+	margin: 0 auto;
+}
+.content__second form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.content__second input{
+    width: 92%;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    border: 1px solid #c9a131;
+}
+.form__input{
+	width: 45%;
+}
+.form__input span{
+	margin: 5px;
+}
+.form__button input{
+	color: #fff;
+	background: #c9a131;
+	cursor: pointer;
+	border: none;
+	transition: all 0.5s ease-in-out;
+}
+.form__button input:hover {
+    border: 2px solid #c9a131;
+    border-top-left-radius: 100% 10px;
+	border-bottom-right-radius: 100% 10px;
+}
+
+footer{
+	color: #fff;
+	background: #191919;
+	text-align: center;
+}
+.foote__list{
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+.footer__item{
+	width: 35%;
+}
+.footer__item h4{
+	font-size: 21px;
+	margin-bottom: 15px;	
+}
+.footer__item img{
+	margin-bottom: 20px;
+}
+.footer__item a{
+	padding: 5px;
+}
+.footer__item a:hover{
+	opacity: 0.5;
+}
+.footer__item p{
+	margin-bottom: 25px;
+}
+#menu{
+	display: none;
+}
+.topnav {
+    margin-top: 35px;
+}
+.topnav .icon{
+	display: none;
+}
+
+
+@media screen and (max-width: 1250px){
+	#menu{
+		font-size: 20px;
+		color: #fff;
+		display: block;
+		margin: auto 0 auto auto;
+	}
+	.topnav{
+		margin-top: 0;
+		width: 100%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;	
+		flex-direction: column;
+		align-items: center;
+		max-height: 0;
+		overflow: hidden;
+		transition: all 1s;
+	}
+	.topnav.responsive{
+		max-height: 500px;
+	}
+	.topnav a{
+		padding: 3px 20px;
+		font-size: 14px;	
+		margin: 0 0 5px 0;
+		border-bottom: 2px solid transparent;
+	}
+	.logo{
+		margin-top: 5px;
+	}
+	.logo p{
+	    font-size: 25px;
+	    padding: 20px;
+	}
+	.ingredients__item{
+		margin-right: auto;
+	}
+	.dish__food {
+    	width: 50%;
+	}
+	.dish__meat{
+		width: 39%;
+	}
+	.dish__meat img{
+	    max-width: 292px;
+	    width: 100%;
+	}
+	.menus__item{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content__first{
+    	width: 40%;
+	}
+	.content__first img{
+		max-width: 115px;
+		width: 100%;
+		padding: 10px;
+	}
+	.content__first img:nth-child(2){
+		margin-left: 0;
+	}
+	.content__second{
+    	width: 60%;
+	}
+}
+@media screen and (max-width: 760px){
+	.main__text h3{
+		font-size: 40px;
+	}
+	.header__button a{
+		padding: 10px;
+	}
+	.dish__food{
+    	width: 42%;
+	}
+	.dish__food img{
+		max-width: 200px;
+		width: 100%;
+		margin-left: none;
+	}
+	.dish__meat{
+	    width: 39%;
+	    display: flex;
+	    align-items: center;
+	}
+	.menus__item{
+		width: 64%;
+	}
+    .content__list{
+    	flex-wrap: wrap;
+    }
+	.content__first {
+    	width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	height: 200px;
+	}
+	.content__second {
+    	width: 100%;
+	}
+	.content__first img {
+		width: 209px;
+	}
+	.foote__list{
+		flex-wrap: wrap;
+	}
+	.footer__item{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px){
+	article{
+		min-height: 600px;
+	}
+	.logo p{
+		font-size: 16px;
+	}
+	.main__text h3{
+    	font-size: 26px;
+	}
+	.header__button a{
+    	padding: 4px;
+    	font-size: 10px;
+	}
+	.dish__food {
+    	width: 100%;
+    	margin-top: 0;
+	}
+	.dish__food h4{
+		font-size: 16px;
+	}
+	.dish__food p{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.dish__meat {
+     	margin-top: 0;
+    	margin-bottom: 0;
+	}
+	.dish__meat img{
+		display: none;
+	}
+	.ingredients{
+		height: 500px;
+	}
+	.ingredients__item{
+		padding: 10px;
+	}
+	.ingredients__item img {
+		margin-left: 0;
+	    width: 70px;
+	    padding: 3px;
+	}
+	.ingredients__item p{
+		font-size: 14px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.ingredients__item h4{
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	.menus__item h4{
+		font-size: 20px;
+	}
+	.menus__item h5{
+		font-size: 16px;
+	}
+	.menus__item p{
+		font-size: 14px;
+	}
+	.menus__item img{
+		max-width: 190px;
+		width: 100%;
+	}
+	.reviews{
+		height: 500px;
+	}
+	.reviews__center{
+		padding: 0;
+	}
+	.reviews__center h3{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.reviews__center p{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.reviews__center .inc{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.content__list{
+		margin-top: 50px;
+	}
+	.content__second h3{
+		font-size: 16px;
+	    margin-top: 10px;
+	}
+	.content__second p{
+		font-size: 14px;
+	}
+	.form__input{
+		width: 80%;
+	}
+	.footer__item h4{
+		font-size: 16px;
+	}
+	.footer__item p{
+		font-size: 14px;
+	}
+
+}
